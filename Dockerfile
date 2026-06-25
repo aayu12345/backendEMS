@@ -7,7 +7,6 @@ WORKDIR /app
 # Copy both frontend and backend directories
 COPY frontend ./frontend
 COPY backend ./backend
-COPY pom.xml ./pom.xml || true 
 
 # Build the backend (which also builds the React frontend via frontend-maven-plugin)
 WORKDIR /app/backend
