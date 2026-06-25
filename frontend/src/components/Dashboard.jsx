@@ -136,7 +136,7 @@ export default function Dashboard({ token, role, employeeId, onNavigate }) {
             {/* Metric 4 */}
             <div className="bg-white p-4 rounded border border-gray-200 shadow-sm flex items-center gap-4">
               <div className="h-10 w-10 bg-purple-100 text-purple-700 flex items-center justify-center font-bold rounded">
-                <DollarSign className="h-5 w-5" />
+                <IndianRupee className="h-5 w-5" />
               </div>
               <div>
                 <p className="text-xs font-semibold uppercase text-gray-500">Averaged Salary</p>
